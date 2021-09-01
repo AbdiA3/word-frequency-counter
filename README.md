@@ -43,3 +43,5 @@ Options:
   -sf, --save  save the frequency table as a JSON file, in '<filename>_freq.json' file
   -h, --help   display help for command
 ```
+
+You can check out the documentation site: https://abdia3.github.io/word-frequency-counter/
