@@ -4,7 +4,7 @@
 
 This is a super simple CLI app that generates a frequency table for all the words existing inside a text file. It is able to display the frequency table and also write the frequency table to a JSON file.
 
-This script is written to learn Commander.js, a CLI tool for node.js. 
+This script is written to learn [Commander.js](https://github.com/tj/commander.js), a CLI tool for node.js. 
 
 ## Get started
 
