@@ -1,5 +1,3 @@
-<title>Word Frequency Counter</title>
-
 # Word Frequency Counter
 
 > Abdi Adem | 2021
@@ -13,6 +11,8 @@ This script is written to learn Commander.js, a CLI tool for node.js.
 You can get started by cloning the repository, and running `npm install`
 
 ```sh
+git clone https://github.com/AbdiA3/word-frequency-counter.git
+cd word-frequency-counter
 npm install
 ```
 
