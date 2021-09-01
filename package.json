@@ -1,0 +1,19 @@
+{
+  "name": "wfc",
+  "version": "0.0.1",
+  "type": "module",
+  "description": "A word frequency counter made using commander.js. This takes a text file form the command line and prints the frequency of each word in the file.",
+  "main": "index.js",
+  "preferGlobal": true,
+  "bin": "./index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "wfc": "node index.js"
+  },
+  "author": "Abdi Adem",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "commander": "^8.1.0"
+  }
+}
