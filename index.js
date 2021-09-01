@@ -2,8 +2,8 @@
 /*------------------------------*/
 /*------------------------------*/
 /*--- Word frequency counter ---*/
-/*---       Abdi Adem        ---*/
-/*---          2021          ---*/
+/*---        Abdi Adem       ---*/
+/*---           2021         ---*/
 /*------------------------------*/
 /*------------------------------*/
 import { Command } from 'commander/esm.mjs'
@@ -145,7 +145,7 @@ function to_lower(array) {
  * Convert an object to a 2D array, in the format [[key, value], [key, value], ...], and return 
  * @param {Object} obj
  * @returns {Object[]} - An array in [[key, value], [key, value], ...] format
- *
+ * 
  */
 function return_array(obj) {
 	let intermediate_array = []
