@@ -9,10 +9,15 @@
 import { Command } from 'commander/esm.mjs'
 import { readFileSync, writeFileSync } from 'fs'
 import chalk from 'chalk'
+import Table from 'cli-table'
 
 
 const program = new Command()
 let filename = null
+
+let table = new Table({
+    head: ['Word', 'Frequency'],
+})
 
 program
     .argument('<filename>', 'the path to a text file')
@@ -40,7 +45,11 @@ try {
 
     if(options.print) {
         console.log(chalk.bold.blue(`There are ${return_array(frequency).length} words in total in ${filename}.`))
-        console.table(frequency)
+        for(let item in frequency) {
+            table.push([item, frequency[item]])
+        }
+
+        console.log(table.toString())
     }
 
     if(options.save) {
